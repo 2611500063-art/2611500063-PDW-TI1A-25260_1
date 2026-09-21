@@ -1,9 +1,8 @@
-# 2611500063-PWD-TI1A-2627O_1
-
-Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16  
-Mata Kuliah: Pemrograman Web Dasar  
-Kelompok: TI1A 
-Tahun Ajaran: 2025/2026  
-Semester: Gasal  
-
-![Logo ISBAL](logoisbal.png)
+Pertemuan-01/README.md
+bukti belajar P1
+Fungsi:dokumentasi campaian pembelajaran P1
+1. Konsep Dasar Pemrograman Web
+2. Arsitektur Klien-peladen
+3. HTTP Request dan Response
+4. HTTML,CSS,JavaScript,PHP,MySQL
+5. Hubungan Antarteknolodi
