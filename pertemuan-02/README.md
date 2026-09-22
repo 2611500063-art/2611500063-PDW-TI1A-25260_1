@@ -7,3 +7,5 @@ Tahun Ajaran: 2025/2026
 Semester: Gasal  
 
 ![Logo ISBAL](logoisbal.png)
+
+salah ku nih pak
