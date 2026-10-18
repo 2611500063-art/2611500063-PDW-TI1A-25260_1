@@ -37,3 +37,9 @@ if (semesterInput.value === "" || semester < 1 || semester > 8) {
         "Semester harus diisi dengan angka 1 sampai 8";
     return;
 }
+const tanggal = tanggalInput.value;
+
+if (tanggal === "") {
+    formFeedback.textContent = "Tanggal Kunjungan.";
+    return;
+}
