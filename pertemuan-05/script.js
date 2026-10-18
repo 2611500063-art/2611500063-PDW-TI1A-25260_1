@@ -52,3 +52,9 @@ if (topikDipilih.length === 0) {
         "Pilih topik yang diminati.";
     return;
 }
+const prodi = prodiInput.value;
+
+if (prodi === "") {
+    formFeedback.textContent = "Pilih program studi.";
+    return;
+}
