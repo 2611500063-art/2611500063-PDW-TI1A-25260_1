@@ -23,6 +23,11 @@ header h1 {
     margin: 0 0 16px;
     font-size: 28px;
 }
+#navMenu.nav-open {
+display: flex;
+flex-direction: column;
+margin-top: 16px;
+}
 
 section {
     width: 100%;
@@ -164,6 +169,7 @@ gap: 16px;
     border: 1px solid #003366;
     cursor: pointer;
 }
+
 
 footer {
     background-color: #003366;
