@@ -71,3 +71,6 @@ if (pesan.length > 1000) {
 formFeedback.textContent = "Form berhasil divalidasi.";
 formFeedback.className = "form-feedback-success";
 });
+contactForm.addEventListener("reset", () => {
+    formFeedback.textContent = "";
+});
