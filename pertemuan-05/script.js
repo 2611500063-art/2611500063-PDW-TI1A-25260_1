@@ -23,3 +23,10 @@ if (nama.length < 3 || nama.length > 50) {
 formFeedback.textContent = "Nama lengkap harus diisi";
 return;
 }
+const email = emailInput.value.trim();
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+if (!emailPattern.test(email)) {
+    formFeedback.textContent = "Masukkan Email anda";
+    return;
+}
