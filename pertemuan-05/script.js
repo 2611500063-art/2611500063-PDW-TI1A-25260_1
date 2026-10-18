@@ -8,8 +8,8 @@ navToggle.setAttribute("aria-label", "Tutup navigasi");
 } else {
 navToggle.setAttribute("aria-label", "Buka navigasi");
 }});
-
-
+const contactForm = document.getElementById("contactForm");
+const formFeedback = document.getElementById("formFeedback");
 const namaInput = document.getElementById("nama");
 const emailInput = document.getElementById("email");
 const semesterInput = document.getElementById("semester");
