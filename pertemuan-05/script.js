@@ -58,3 +58,9 @@ if (prodi === "") {
     formFeedback.textContent = "Pilih program studi.";
     return;
 }
+const pesan = pesanInput.value.trim();
+
+if (pesan.length === 0) {
+    formFeedback.textContent = "Pesan wajid diisi.";
+    return;
+}
