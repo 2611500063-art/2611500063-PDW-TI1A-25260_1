@@ -32,9 +32,9 @@ if (!emailPattern.test(email)) {
 }
 const semester = Number(semesterInput.value);
 
-if (semesterInput.value === "" || semester < 1 || semester > 8) {
+if (semesterInput.value === "" || semester < 1 || semester > 14) {
     formFeedback.textContent =
-        "Semester harus diisi dengan angka 1 sampai 8";
+        "Semester harus diisi dengan angka 1 sampai 14";
     return;
 }
 const tanggal = tanggalInput.value;
@@ -64,8 +64,8 @@ if (pesan.length === 0) {
     formFeedback.textContent = "Pesan wajid diisi.";
     return;
 }
-if (pesan.length > 1000) {
-    formFeedback.textContent = "Pesan maksimal 1000 karakter.";
+if (pesan.length > 300) {
+    formFeedback.textContent = "Pesan maksimal 300 karakter.";
     return;
 }
 formFeedback.textContent = "Form berhasil divalidasi.";
