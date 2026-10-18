@@ -74,3 +74,6 @@ formFeedback.className = "form-feedback-success";
 contactForm.addEventListener("reset", () => {
     formFeedback.textContent = "";
 });
+contactForm.addEventListener("input", () => {
+formFeedback.textContent = "";
+});
