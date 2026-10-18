@@ -64,3 +64,7 @@ if (pesan.length === 0) {
     formFeedback.textContent = "Pesan wajid diisi.";
     return;
 }
+if (pesan.length > 1000) {
+    formFeedback.textContent = "Pesan maksimal 1000 karakter.";
+    return;
+}
