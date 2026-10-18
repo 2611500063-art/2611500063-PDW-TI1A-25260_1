@@ -68,3 +68,6 @@ if (pesan.length > 1000) {
     formFeedback.textContent = "Pesan maksimal 1000 karakter.";
     return;
 }
+formFeedback.textContent = "Form berhasil divalidasi.";
+formFeedback.className = "form-feedback-success";
+});
