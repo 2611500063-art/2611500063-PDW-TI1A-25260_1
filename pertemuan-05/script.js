@@ -30,3 +30,10 @@ if (!emailPattern.test(email)) {
     formFeedback.textContent = "Masukkan Email anda";
     return;
 }
+const semester = Number(semesterInput.value);
+
+if (semesterInput.value === "" || semester < 1 || semester > 8) {
+    formFeedback.textContent =
+        "Semester harus diisi dengan angka 1 sampai 8";
+    return;
+}
